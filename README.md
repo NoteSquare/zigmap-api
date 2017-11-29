@@ -2,10 +2,10 @@
 
 ## Installation
 
-다음 명령어를 통해 프로젝트 파일을 가져옵니다. 또는 zip 파일을 다운로드 할 수 있습니다. 
+다음 명령어를 통해 프로젝트 파일을 가져옵니다. 또는 [Github repository](https://github.com/NoteSquare/zigmap-api.git)에서 zip 파일을 다운로드 할 수 있습니다. 
 
 ```bash
-git clone https://github.com/user/repository.git
+git clone https://github.com/NoteSquare/zigmap-api.git
 ```
 
 다음 명령어를 통해 의존 모듈을 설치합니다. 
@@ -19,8 +19,8 @@ zigmap API Server를 실행하기 위해서 Firebase cloud functions, Neo4j, Doc
 [Firebase cloud functions](https://firebase.google.com/docs/functions/) 공식 문서를 참고하여 [Firebase 환경을 설정](https://firebase.google.com/docs/admin/setup?authuser=0)합니다. 
 
 최단 경로를 조회하기 위해서 [Neo4j Graph Database](https://neo4j.com/)가 필요합니다. 
-[Docker image](https://neo4j.com/developer/docker/)를 사용하여 설치 및 실행 할 수 있습니다. 
 
+[Docker image](https://neo4j.com/developer/docker/)를 사용하여 설치 및 실행 할 수 있습니다. 
 Docker image를 사용하기 위해서 Docker가 필요합니다. [Docker 공식 문서](https://www.docker.com/)를 참고하여 다운로드 및 설치할 수 있습니다. 
 
 Docker image를 사용하는 경우 다음 명령어로 Neo4j 서버를 실행합니다. 
@@ -33,7 +33,7 @@ docker run \
     neo4j
 ```
 
-/config/neo4j.json 파일을 통해 username, password, host 정보를 지정해야합니다. 
+/config/neo4j.json 파일을 통해 username, password, host 정보를 지정합니다. 
 
 ## Usage
 
